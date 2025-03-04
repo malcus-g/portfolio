@@ -1,11 +1,15 @@
 import React from 'react'
 
-export default function SectionHeading() {
+type SectionHeadingProps = {
+  children: React.ReactNode;
+};
+
+export default function SectionHeading({ children }: SectionHeadingProps) {
   return (
     <h2
         className="text-3xl font-medium capitalize mb-8"
         >
-            About Me
+            {children}
     </h2>
   )
 }
