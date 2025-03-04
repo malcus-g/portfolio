@@ -46,17 +46,17 @@ export default function Intro() {
                 </motion.span>
             </div>
         </div>
-        <motion.p 
+        <motion.h1 
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100}}
         animate={{ opacity: 1, y: 0}}
         >
             <span className="font-bold">Hello, I'm Garrett. </span> I'm a{" "}
             <span className="font-bold">full-stack developer</span> with a background in{" "}
-            <span className="font-bold">project management</span> and a passion for{" "}
+            <span className="font-bold">project management</span>. I have a passion for{" "}
             <span className="font-bold">building relationships</span> and{" "}
             <span className="font-bold">collaborating with others</span>. Let's connect!
-        </motion.p>
+        </motion.h1>
         <motion.div 
         className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
