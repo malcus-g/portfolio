@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Ubuntu_Sans } from "next/font/google";
 import Header from "@/components/header";
 import "./globals.css";
+import ActiveSectionContextProvider from "@/context/active-section-context";
 
 const ubuntuSans = Ubuntu_Sans({
   variable: "--font-ubuntu-sans",
@@ -19,13 +20,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="!scroll-smooth">
       <body
       className={`${ubuntuSans.variable} antialiased bg-slate-50 text-slate-900 relative pt-28 sm:pt-36`}>
-        <div className="bg-[#d9e4ff] absolute top-[-1rem] -z-10 right-[0rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
-        <div className="bg-[#d9e4ff] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[70rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
-        <Header />
-        {children}
+        <div className="bg-[#e6edfd] absolute top-[-1rem] -z-10 right-[0rem] h-[31.25rem] w-[50rem] rounded-3xl blur-[15rem] sm:w-[68.75rem]"></div>
+        <div className="bg-[#e2fff3] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[15rem] sm:w-[70rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
+        <ActiveSectionContextProvider>
+          <Header />
+          {children}
+        </ActiveSectionContextProvider>
       </body>
     </html>
   );
