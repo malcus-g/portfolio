@@ -1,7 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 
 export const links = [
   {
@@ -32,28 +31,28 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Mobile Operations Manager",
+    location: "Louisville, KY",
+    description:
+      " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti sit earum dolore libero sapiente nesciunt perspiciatis sint provident, rem nostrum vitae quasi a iusto, assumenda vel quos mollitia repudiandae ratione.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - 2024",
+  },
+  {
     title: "Graduated bootcamp",
     location: "Remote",
     description:
-      "Sample Description",
-    icon: React.createElement(LuGraduationCap),
+      " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti sit earum dolore libero sapiente nesciunt perspiciatis sint provident, rem nostrum vitae quasi a iusto, assumenda vel quos mollitia repudiandae ratione.",
+    icon: React.createElement(FaReact),
     date: "2024",
   },
   {
     title: "Program Manager",
     location: "Louisville, KY",
     description:
-      "Sample Description",
+      " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti sit earum dolore libero sapiente nesciunt perspiciatis sint provident, rem nostrum vitae quasi a iusto, assumenda vel quos mollitia repudiandae ratione.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - present",
-  },
-  {
-    title: "Mobile Operations Manager",
-    location: "Louisville, KY",
-    description:
-      "Sample Description",
-    icon: React.createElement(FaReact),
-    date: "2022 - 2024",
   },
 ] as const;
 
