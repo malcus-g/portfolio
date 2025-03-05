@@ -31,10 +31,10 @@ export default function Contact() {
     >
         <SectionHeading>Contact Me</SectionHeading>
         <p className="text-slate-700 -mt-5">
-            Please connect with me directly at {" "}
-            <a className="underline" href="mailto:garrettcouch97@gmail.com">
-                garrettcouch97@gmail.com
-            </a> or through this form.
+            Connect with me directly through{" "}
+            <a className="underline" href="https://linkedin.com/in/garrettmcouch">
+                LinkedIn
+            </a>, or send me a message through this form!
         </p>
         <form 
             className="mt-10 flex flex-col"
