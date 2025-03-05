@@ -3,6 +3,7 @@ import { Ubuntu_Sans } from "next/font/google";
 import Header from "@/components/header";
 import "./globals.css";
 import ActiveSectionContextProvider from "@/context/active-section-context";
+import { Toaster } from "react-hot-toast";
 
 const ubuntuSans = Ubuntu_Sans({
   variable: "--font-ubuntu-sans",
@@ -28,6 +29,7 @@ export default function RootLayout({
         <ActiveSectionContextProvider>
           <Header />
           {children}
+          <Toaster position="bottom-center" />
         </ActiveSectionContextProvider>
       </body>
     </html>
