@@ -5,6 +5,7 @@ import "./globals.css";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import { Toaster } from "react-hot-toast";
 import Footer from "@/components/footer";
+import ThemeSwitch from "@/components/theme-switch";
 
 const ubuntuSans = Ubuntu_Sans({
   variable: "--font-ubuntu-sans",
@@ -33,6 +34,7 @@ export default function RootLayout({
           <Toaster position="bottom-center" />
           <Footer />
         </ActiveSectionContextProvider>
+        <ThemeSwitch />
       </body>
     </html>
   );
