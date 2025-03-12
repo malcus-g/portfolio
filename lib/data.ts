@@ -34,7 +34,7 @@ export const experiencesData = [
     title: "Mobile Operations Manager",
     location: "Louisville, KY",
     description:
-      " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti sit earum dolore libero sapiente nesciunt perspiciatis sint provident, rem nostrum vitae quasi a iusto, assumenda vel quos mollitia repudiandae ratione.",
+      "Led the launch of a catering and events branch at Sunergos Coffee, designing and implementing systems for cost structures, pricing tools, inventory management, and profit tracking. Managed client relations and organized events, contributing to operational efficiency and customer satisfaction.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - 2024",
   },
@@ -42,7 +42,7 @@ export const experiencesData = [
     title: "Graduated bootcamp",
     location: "Remote",
     description:
-      " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti sit earum dolore libero sapiente nesciunt perspiciatis sint provident, rem nostrum vitae quasi a iusto, assumenda vel quos mollitia repudiandae ratione.",
+      "Completed a full-stack software development bootcamp where I learned how to develop dynamic web-based software systems. Studies included object oriented programming, web application development, database programming, and development tools and techniques.",
     icon: React.createElement(FaReact),
     date: "2024",
   },
@@ -50,7 +50,7 @@ export const experiencesData = [
     title: "Program Manager",
     location: "Louisville, KY",
     description:
-      " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti sit earum dolore libero sapiente nesciunt perspiciatis sint provident, rem nostrum vitae quasi a iusto, assumenda vel quos mollitia repudiandae ratione.",
+      "Responsible for guiding proprietary software development, facilitating communication between development teams and executives, creating client documentation, and providing IT support across various operational tasks.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - present",
   },
@@ -60,9 +60,10 @@ export const projectsData = [
   {
     title: "Invoice Dashboard",
     description:
-      "A web app for tracking customer invoices and visualizing monthly revenue. Features include data visualization, pagination, authentication, and form validation",
+      "A web app for tracking customer invoices and visualizing monthly revenue. Includes data visualization, pagination, authentication, and form validation",
     tags: ["React", "Next.js", "Typescript", "PostgreSQL", "NeonDB", "Next Auth", "Zod", "Tailwind"],
     imageUrl: "https://picsum.photos/1200/900",
+    link: ""
   },
   {
     title: "The Black Palm Bakery",
@@ -70,6 +71,7 @@ export const projectsData = [
       "Currently working as a full-stack developer building a website for The Black Palm Bakery - A new bakery in Louisville, KY.",
     tags: ["Vue", "HTML", "CSS", "Javascript", "Java", "PostgreSQL", "Netlify", "Git"],
     imageUrl: "https://picsum.photos/1200/900",
+    link: "https://blackpalmbakery.com"
   },
   {
     title: "Recipe Manager",
@@ -77,6 +79,7 @@ export const projectsData = [
       "A recipe management application built for The Black Palm Bakery to allow them to create, manage, and organize recipes.",
     tags: ["Vue", "HTML", "CSS", "Javascript", "Java", "Sping", "PostgreSQL", "Git"],
     imageUrl: "https://picsum.photos/1200/900",
+    link: ""
   },
 ] as const;
 

@@ -20,11 +20,20 @@ export default function About() {
     >
         <SectionHeading>About Me</SectionHeading>
         <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti sit earum dolore libero sapiente nesciunt perspiciatis sint provident, rem nostrum vitae quasi a iusto, assumenda vel quos mollitia repudiandae ratione.
+          As a{" "}
+          <span className="font-bold">dedicated</span> and{" "}
+          <span className="font-bold">versatile</span> professional, I bring a unique blend of hands-on operational experience, technical expertise, and passion for what I do. I am currently a{" "}
+          <span className="font-bold">Project Manager</span> at A. Blair enterprises leveraging experience in{" "}
+          <span className="font-bold">operations management</span> and the{" "}
+          <span className="font-bold">software development life cycle</span>. 
         </p>
         &nbsp;
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis laudantium, corrupti quibusdam magni enim quia natus architecto iste dolorum deserunt, vero exercitationem ipsam aperiam, beatae voluptatibus in ut odio possimus.
+          Notably, I successfully proposed, built, and launched the catering department for Sunergos Coffee and am currently developing a new website for The Black Palm Bakery. I also recently enhanced my technical skill set through a{" "}
+          <span className="font-bold">Java Web Development bootcamp</span> with Tech Elevator, building on my{" "}
+          <span className="font-bold">business marketing studies</span> at Indiana University Southeast. My goal is to transition into a full-time software development role where I can leverage my{" "}
+          <span className="font-bold">problem-solving abilities</span> and{" "}
+          <span className="font-bold">passion for technology</span> to drive innovation and success.
         </p>
     </motion.section>
   )
