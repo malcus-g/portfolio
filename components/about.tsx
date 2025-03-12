@@ -23,7 +23,7 @@ export default function About() {
           As a{" "}
           <span className="font-bold">dedicated</span> and{" "}
           <span className="font-bold">versatile</span> professional, I bring a unique blend of hands-on operational experience, technical expertise, and passion for what I do. I am currently a{" "}
-          <span className="font-bold">Project Manager</span> at A. Blair enterprises leveraging experience in{" "}
+          <span className="font-bold">Program Manager</span> at A. Blair enterprises leveraging experience in{" "}
           <span className="font-bold">operations management</span> and the{" "}
           <span className="font-bold">software development life cycle</span>. 
         </p>
