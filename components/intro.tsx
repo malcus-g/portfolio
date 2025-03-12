@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import headshot from "@/public/headshot.jpeg"
 
 export default function Intro() {
     const { ref } = useSectionInView("Home", .9);
@@ -35,7 +36,7 @@ export default function Intro() {
                         }}
                     >
                         <Image 
-                            src="https://picsum.photos/192" 
+                            src={headshot} 
                             alt="Garrett Portrait"
                             width="192"
                             height="192"

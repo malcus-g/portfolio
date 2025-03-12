@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import blackpalmbakery from "@/public/blackpalmbakery.png";
 import blackpalmrecipemanager from "@/public/blackpalmrecipemanager.png";
 import invoicedashboard from "@/public/invoicedashboard.png";
+import portfolio from "@/public/portfolio.png"
 
 export const links = [
   {
@@ -79,10 +80,18 @@ export const projectsData = [
   {
     title: "Invoice Dashboard",
     description:
-      "A web app for tracking customer invoices and visualizing monthly revenue. Includes data visualization, pagination, authentication, and form validation",
+      "A web app for tracking customer invoices and visualizing monthly revenue. Includes data visualization, pagination, authentication, and form validation.",
     tags: ["React", "Next.js", "Typescript", "PostgreSQL", "NeonDB", "Next Auth", "Zod", "Tailwind"],
     imageUrl: invoicedashboard,
     link: "https://github.com/malcus-g/nextjs-dashboard"
+  },
+  {
+    title: "Portfolio Site",
+    description:
+      "My online developer portfolio.",
+    tags: ["React", "Next.js", "Typescript", "Tailwind", "Framer Motion", "React Email", "Resend"],
+    imageUrl: portfolio,
+    link: "https://github.com/malcus-g/portfolio"
   },
 ] as const;
 
