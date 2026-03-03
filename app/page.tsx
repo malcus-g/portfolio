@@ -19,7 +19,8 @@ export default function Home() {
       <SectionDivider />
       <Experience />
       <SectionDivider />
-      <Contact />
+      {/* Removed contact section 03/03/26 */}
+      {/* <Contact /> */}
     </main>
   );
 }
